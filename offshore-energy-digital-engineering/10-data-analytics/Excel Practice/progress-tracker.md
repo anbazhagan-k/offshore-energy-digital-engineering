@@ -2,16 +2,17 @@
 
 Last updated: 2026-11-10
 
-| Lesson | Topic | Status | Practice | Assessment |
-|---:|---|---|---|---|
-| 01 | XLOOKUP fundamentals | COMPLETED | Completed during guided practice | Completed |
-| 02 | Reverse XLOOKUP — lookup to the left | IN PROGRESS | Pending | Pending |
-| 03 | Reverse search — last matching record | NOT STARTED | Not started | Not started |
-| 04 | Multiple-criteria XLOOKUP | NOT STARTED | Not started | Not started |
-| 05 | Wildcard XLOOKUP | NOT STARTED | Not started | Not started |
-| 06 | IFNA and custom not-found handling | NOT STARTED | Not started | Not started |
-| 07 | Dynamic arrays with XLOOKUP | NOT STARTED | Not started | Not started |
-| 08 | Engineering register lookup exercises | NOT STARTED | Not started | Not started |
+| Topic | Status | Practice | Assessment |
+|---|---|---|---|
+| VLOOKUP fundamentals | IN PROGRESS | Guided practice started; independent exercises pending | Pending |
+| XLOOKUP fundamentals | COMPLETED | Completed during earlier guided practice | Completed |
+| Reverse XLOOKUP — lookup to the left | NOT STARTED | Pending | Pending |
+| Reverse search — last matching record | NOT STARTED | Not started | Not started |
+| Multiple-criteria XLOOKUP | NOT STARTED | Not started | Not started |
+| Wildcard XLOOKUP | NOT STARTED | Not started | Not started |
+| IFNA and custom not-found handling | NOT STARTED | Not started | Not started |
+| Dynamic arrays with XLOOKUP | NOT STARTED | Not started | Not started |
+| Engineering register lookup exercises | NOT STARTED | Not started | Not started |
 
 ## Completion rule
 
@@ -23,6 +24,6 @@ A lesson is complete only after:
 
 ## Current focus
 
-**Lesson 02 — Reverse XLOOKUP (lookup to the left).**
+**VLOOKUP fundamentals.**
 
-XLOOKUP can return a value from a column to the left of the lookup column. This is different from searching from the bottom of a list; bottom-to-top search will be a separate lesson.
+Learn the syntax, understand the four arguments, practise exact-match lookups, and understand the left-to-right limitation before moving on.
