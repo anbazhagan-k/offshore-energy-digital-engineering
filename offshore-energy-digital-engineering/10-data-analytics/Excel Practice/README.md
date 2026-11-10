@@ -4,23 +4,24 @@ A practical Excel learning track for engineering information and asset data mana
 
 ## Learning sequence
 
-| Topic | Status |
-|---|---|
-| VLOOKUP fundamentals | IN PROGRESS |
-| XLOOKUP fundamentals | COMPLETED |
-| Reverse XLOOKUP — return a value from a column to the left | NOT STARTED |
-| Reverse search — return the last matching record | NOT STARTED |
-| Multiple-criteria XLOOKUP | NOT STARTED |
-| Wildcard XLOOKUP | NOT STARTED |
-| IFNA and custom not-found handling | NOT STARTED |
-| Dynamic arrays with XLOOKUP | NOT STARTED |
-| Engineering register lookup exercises | NOT STARTED |
+| No. | Topic | Status | Lesson notes |
+|---:|---|---|---|
+| 01 | Basic calculation functions — SUM, AVERAGE, MAX | PRACTISED | [Open lesson](01-basic-functions.md) |
+| 02 | MIN, COUNT, COUNTA, COUNTBLANK | STUDIED — PRACTICE TO VERIFY | [Open lesson](02-counting-functions.md) |
+| 03 | Relative, absolute and mixed references | PRACTISED | [Open lesson](03-cell-references.md) |
+| 04 | Copying formulas and Fill Handle | STUDIED / PRACTISED | [Open lesson](04-copying-formulas-and-fill-handle.md) |
+| 05 | Data types, number formats and dates | STUDIED | [Open lesson](05-data-types-and-date-formatting.md) |
+| 06 | Sorting, filtering and Excel Tables | IN PROGRESS | [Open lesson](06-sorting-filtering-and-tables.md) |
+| 07 | Logical functions — IF, AND, OR | NOT STARTED | — |
+| 08 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
+| 09 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
+| 10 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
 
-## Current lesson
+## Current learning position
 
-Start with [VLOOKUP fundamentals](01-vlookup-fundamentals.md).
+The beginner foundation lessons through sorting, filtering and Excel Tables have been introduced. The learner has practised basic calculation functions, cell references and formula copying. The Excel Table and structured-reference exercise was demonstrated in a screenshot.
 
-The previously completed XLOOKUP fundamentals lesson remains recorded as completed. We are now learning VLOOKUP to understand the traditional lookup method and its limitations before continuing with advanced lookup scenarios.
+**Next lesson:** Chapter 7 — Logical functions (IF, AND and OR), after completing the remaining filtering practice.
 
 ## Learning method
 
@@ -28,7 +29,7 @@ For each topic:
 1. Understand the problem the function solves.
 2. Learn the syntax and each argument.
 3. Work through a small example manually.
-4. Complete the exercises without copying the answer.
+4. Complete the exercises independently.
 5. Explain why the formula works.
 6. Update [progress-tracker.md](progress-tracker.md).
 
