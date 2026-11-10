@@ -9,6 +9,7 @@ This folder controls the learning programme and records progress.
 - [Study log](study-log.md) — dated record of study and practice.
 - [Skills matrix](skills-matrix.md) — current and target capability.
 - [Open questions](open-questions.md) — unresolved concepts to revisit.
+- [Terms and definitions](terms-and-definitions.md) — cumulative glossary of terms from completed and reviewed study topics.
 - [Review checklist](review-checklist.md) — weekly and monthly review routine.
 
 ## Update routine
