@@ -14,7 +14,7 @@ Update this file after each lesson or exercise.
 
 | Module | Status | Lessons completed | Evidence / next action |
 |---|---|---:|---|
-| 01 Offshore energy fundamentals | IN PROGRESS | 0 | Upstream, midstream and downstream overview discussed; document the lesson and complete assessment |
+| 01 Offshore energy fundamentals | IN PROGRESS | 0 | [Lesson 01 study material created](../01-offshore-energy-fundamentals/01-oil-and-gas-value-chain-and-offshore-lifecycle.md); learner study, exercises and assessment pending |
 | 02 Engineering fundamentals | NOT STARTED | 0 | Start after fundamentals review |
 | 03 Offshore platforms | NOT STARTED | 0 | Pending |
 | 04 Subsea systems | NOT STARTED | 0 | Pending |
@@ -32,7 +32,7 @@ Update this file after each lesson or exercise.
 
 | Module / lesson | Study status | Exercise status | Assessment status | Confidence (1–5) | Next action |
 |---|---|---|---|---:|---|
-| Upstream, midstream and downstream | IN PROGRESS | NOT STARTED | NOT STARTED | 2 | Write a summary and complete the knowledge check |
+| Lesson 01 — Oil & gas value chain and offshore asset lifecycle | IN PROGRESS | NOT STARTED | NOT STARTED | — | Study the new chapter, complete Exercises A–D and answer the assessment |
 | Offshore energy project lifecycle | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Offshore facility overview | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and continue with logical functions |
