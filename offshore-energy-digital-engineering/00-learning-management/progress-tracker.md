@@ -23,7 +23,7 @@ Update this file after each lesson or exercise.
 | 07 Asset management | NOT STARTED | 0 | Pending |
 | 08 Digital engineering | NOT STARTED | 0 | Pending |
 | 09 EAM/CMMS platforms | NOT STARTED | 0 | Pending |
-| 10 Data analytics | NOT STARTED | 0 | Pending |
+| 10 Data analytics | IN PROGRESS | 0 | Excel foundations underway; see [Excel Practice tracker](../10-data-analytics/Excel%20Practice/progress-tracker.md) |
 | 11 Practical projects | NOT STARTED | 0 | Pending |
 | 12 Industry standards | NOT STARTED | 0 | Pending |
 | 13 Career development | NOT STARTED | 0 | Pending |
@@ -35,7 +35,8 @@ Update this file after each lesson or exercise.
 | Upstream, midstream and downstream | IN PROGRESS | NOT STARTED | NOT STARTED | 2 | Write a summary and complete the knowledge check |
 | Offshore energy project lifecycle | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Offshore facility overview | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
+| Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and continue with logical functions |
 
 ## Completion rule
 
-Do not mark a lesson `COMPLETED` until the lesson, exercise and assessment are complete and the confidence rating is at least 3/5. If confidence is lower, use `REVISION REQUIRED`.
+Do not mark a lesson COMPLETED until the lesson, exercise and assessment are complete and the confidence rating is at least 3/5. If confidence is lower, use REVISION REQUIRED.
