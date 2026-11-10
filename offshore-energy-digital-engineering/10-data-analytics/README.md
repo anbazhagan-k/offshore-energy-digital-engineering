@@ -4,10 +4,11 @@ Study Excel, Power Query, Power BI, SQL, data validation, completeness metrics a
 
 ## Excel Practice
 
-Work through the Excel lookup lessons and record completion in the dedicated tracker:
+Work through the Excel lessons and record completion in the dedicated tracker:
 
 - [Excel Practice guide](Excel%20Practice/README.md)
 - [Progress tracker](Excel%20Practice/progress-tracker.md)
-- [Lesson 02 — Reverse XLOOKUP](Excel%20Practice/02-reverse-xlookup.md)
+- [Lesson 01 — VLOOKUP fundamentals](Excel%20Practice/01-vlookup-fundamentals.md)
+- [Lesson — Reverse XLOOKUP](Excel%20Practice/02-reverse-xlookup.md)
 
-Current focus: Reverse XLOOKUP — returning a value from a column to the left of the lookup column.
+Current focus: VLOOKUP fundamentals — learning the syntax, exact-match lookup, column index and lookup limitations.
