@@ -4,16 +4,23 @@ A practical Excel learning track for engineering information and asset data mana
 
 ## Learning sequence
 
-| No. | Topic | Status |
-|---:|---|---|
-| 01 | XLOOKUP fundamentals | COMPLETED |
-| 02 | Reverse XLOOKUP — return a value from a column to the left | IN PROGRESS |
-| 03 | Reverse search — return the last matching record | NOT STARTED |
-| 04 | Multiple-criteria XLOOKUP | NOT STARTED |
-| 05 | Wildcard XLOOKUP | NOT STARTED |
-| 06 | IFNA and custom not-found handling | NOT STARTED |
-| 07 | Dynamic arrays with XLOOKUP | NOT STARTED |
-| 08 | Engineering register lookup exercises | NOT STARTED |
+| Topic | Status |
+|---|---|
+| VLOOKUP fundamentals | IN PROGRESS |
+| XLOOKUP fundamentals | COMPLETED |
+| Reverse XLOOKUP — return a value from a column to the left | NOT STARTED |
+| Reverse search — return the last matching record | NOT STARTED |
+| Multiple-criteria XLOOKUP | NOT STARTED |
+| Wildcard XLOOKUP | NOT STARTED |
+| IFNA and custom not-found handling | NOT STARTED |
+| Dynamic arrays with XLOOKUP | NOT STARTED |
+| Engineering register lookup exercises | NOT STARTED |
+
+## Current lesson
+
+Start with [VLOOKUP fundamentals](01-vlookup-fundamentals.md).
+
+The previously completed XLOOKUP fundamentals lesson remains recorded as completed. We are now learning VLOOKUP to understand the traditional lookup method and its limitations before continuing with advanced lookup scenarios.
 
 ## Learning method
 
@@ -24,10 +31,6 @@ For each topic:
 4. Complete the exercises without copying the answer.
 5. Explain why the formula works.
 6. Update [progress-tracker.md](progress-tracker.md).
-
-## Current lesson
-
-Start with [02 — Reverse XLOOKUP](02-reverse-xlookup.md).
 
 ## Practice data
 
