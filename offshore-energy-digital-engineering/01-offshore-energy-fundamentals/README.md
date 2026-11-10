@@ -2,33 +2,50 @@
 
 ## Purpose
 
-Build a clear understanding of the oil and gas value chain, offshore energy operations and the lifecycle of projects and operating assets.
+Build the industry, asset and project-lifecycle understanding needed to work effectively in offshore energy Digital Engineering, Engineering Information Management (EIM) and Asset Information Management (AIM).
+
+The target is functional engineering literacy and strong information-management capability — not qualification as a petroleum, process, structural or subsea design engineer.
 
 ## Learning outcomes
 
 By the end of this module, you should be able to:
-- Explain upstream, midstream and downstream activities.
-- Describe how offshore production connects to pipelines and LNG facilities.
-- Explain the difference between an offshore platform, subsea development and LNG plant.
-- Describe the main stages of an energy project and asset lifecycle.
-- Identify the main stakeholders involved in projects and operations.
+- Explain upstream, midstream and downstream activities and how they connect.
+- Trace a simplified offshore oil or gas development from reservoir to market.
+- Distinguish offshore platforms, floating production facilities, subsea developments, pipelines and LNG facilities.
+- Describe the project and asset lifecycle from exploration to decommissioning.
+- Recognise the roles of operators, regulators, FEED / EPC / EPCI contractors, vendors and operations teams.
+- Identify engineering information deliverables and handover requirements at each lifecycle stage.
+- Explain how tags, registers, drawings, models, vendor data and maintenance records relate to a physical asset.
+- Describe where Digital Engineering, EIM and AIM contribute to safe and effective asset delivery and operation.
 
 ## Lesson sequence
 
-| Lesson | Topic | Status |
-|---|---|---|
-| 01 | Upstream, midstream and downstream | IN PROGRESS |
-| 02 | Oil and gas project lifecycle | NOT STARTED |
-| 03 | Offshore energy development overview | NOT STARTED |
-| 04 | Offshore platform versus subsea development | NOT STARTED |
-| 05 | LNG value chain overview | NOT STARTED |
-| 06 | Operator, EPC, contractor and vendor roles | NOT STARTED |
+| Lesson | Topic | Status | Study material |
+|---|---|---|---|
+| 01 | Oil and gas value chain and offshore asset lifecycle | STUDY MATERIAL CREATED — STUDY PENDING | [Open Lesson 01](01-oil-and-gas-value-chain-and-offshore-lifecycle.md) |
+| 02 | Oil and gas project lifecycle — phases, gates and deliverables | NOT STARTED | Planned |
+| 03 | Offshore energy development overview | NOT STARTED | Planned |
+| 04 | Offshore platform versus subsea development | NOT STARTED | Planned |
+| 05 | LNG value chain overview | NOT STARTED | Planned |
+| 06 | Operator, EPC, contractor and vendor roles | NOT STARTED | Planned |
+
+## Recommended study depth
+
+Prioritise:
+- Strong understanding of the value chain and asset lifecycle.
+- Functional knowledge of offshore development concepts and common equipment.
+- Working knowledge of FEED, EPC / EPCI, construction, commissioning and handover.
+- Practical understanding of engineering information objects, data relationships, revisions and information quality.
+
+Initially, only awareness is required for reservoir calculations, process design calculations, detailed subsea design and specialist engineering analyses. Learn what these disciplines do, what information they produce and when an authorised technical specialist must make the decision.
 
 ## Completion evidence
 
 - [ ] Explain the oil and gas value chain in your own words.
 - [ ] Draw a simple offshore-to-market process flow.
-- [ ] Complete the module assessment.
+- [ ] Explain the project and asset lifecycle.
+- [ ] Identify key engineering information deliverables by lifecycle phase.
+- [ ] Complete the lesson exercises and assessment.
 - [ ] Update the learning management trackers.
 
 ## Navigation
