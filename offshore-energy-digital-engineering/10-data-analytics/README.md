@@ -14,6 +14,7 @@ The Excel learning track is being built from beginner foundations toward enginee
 - [04 — Copying formulas and Fill Handle](Excel%20Practice/04-copying-formulas-and-fill-handle.md)
 - [05 — Data types and date formatting](Excel%20Practice/05-data-types-and-date-formatting.md)
 - [06 — Sorting, filtering and Excel Tables](Excel%20Practice/06-sorting-filtering-and-tables.md)
+- [07 — IF and Nested IF](Excel%20Practice/07-if-and-nested-if.md)
 - [VLOOKUP fundamentals — deferred until foundations are stronger](Excel%20Practice/01-vlookup-fundamentals.md)
 
-**Current focus:** Finish practical filtering and table exercises, then learn IF, AND and OR.
+**Current focus:** Complete the pending Nested IF maintenance-risk exercise, then study AND, OR and combined logical tests. Filtering and Excel Table practice also remains to be verified.
