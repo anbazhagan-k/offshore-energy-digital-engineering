@@ -11,3 +11,5 @@ All projects must use synthetic, public-domain or appropriately licensed data. D
 5. Offshore asset information and data-quality dashboard.
 
 Each project should include a problem statement, assumptions, data dictionary, method, outputs, validation, limitations and lessons learned.
+
+6. Connected offshore exploration information registers — [project folder](01-connected-offshore-exploration-registers/README.md). Build linked block, seismic survey, document, prospect and information-quality registers.
