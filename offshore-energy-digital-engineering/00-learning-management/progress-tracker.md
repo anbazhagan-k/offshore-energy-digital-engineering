@@ -32,7 +32,8 @@ Update this file after each lesson or exercise.
 
 | Module / lesson | Study status | Exercise status | Assessment status | Confidence (1–5) | Next action |
 |---|---|---|---|---:|---|
-| Lesson 01 — Oil & gas value chain and offshore asset lifecycle | IN PROGRESS | NOT STARTED | NOT STARTED | — | Study the new chapter, complete Exercises A–D and answer the assessment |
+| Lesson 01 — Oil & gas value chain and offshore asset lifecycle | IN PROGRESS | NOT STARTED | NOT STARTED | — | Study the chapter, complete Exercises A–D and answer the assessment |
+| Lesson 02 — Information management during early offshore exploration | STUDY MATERIAL CREATED — STUDY PENDING | NOT STARTED | NOT STARTED | — | Study the chapter, complete Exercises A–D and answer the assessment |
 | Offshore energy project lifecycle | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Offshore facility overview | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and review outstanding foundations |
