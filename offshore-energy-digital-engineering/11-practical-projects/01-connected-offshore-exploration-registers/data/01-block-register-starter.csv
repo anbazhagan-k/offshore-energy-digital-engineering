@@ -1,0 +1,4 @@
+Block_ID,Block_Name,Basin_Name,Geographical_Region,Jurisdiction,Licence_Reference,Gross_Area,Area_Unit,Licence_Status,Data_Source,Data_Owner,Last_Verified_Date
+EXB-001,North Example,Example Offshore Basin,Example Offshore Region,Example Jurisdiction,LIC-EX-001,100000,acres,Active,Licence Schedule,Licence Team,2026-11-01
+EXB-002,Central Example,Example Offshore Basin,Example Offshore Region,Example Jurisdiction,LIC-EX-002,85000,acres,Active,Licence Schedule,Licence Team,2026-11-01
+EXB-003,South Example,Example Offshore Basin,Example Offshore Region,Example Jurisdiction,LIC-EX-003,75000,acres,Pending,Licence Schedule,Licence Team,2026-11-01
