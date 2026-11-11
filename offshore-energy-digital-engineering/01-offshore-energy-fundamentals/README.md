@@ -23,6 +23,7 @@ By the end of this module, you should be able to:
 | Lesson | Topic | Status | Study material |
 |---|---|---|---|
 | 01 | Oil and gas value chain and offshore asset lifecycle | STUDY MATERIAL CREATED — STUDY PENDING | [Open Lesson 01](01-oil-and-gas-value-chain-and-offshore-lifecycle.md) |
+| 02 | Information management during early offshore exploration | STUDY MATERIAL CREATED — STUDY PENDING | [Open Lesson 02](02-information-management-during-early-exploration.md) |
 | 02 | Oil and gas project lifecycle — phases, gates and deliverables | NOT STARTED | Planned |
 | 03 | Offshore energy development overview | NOT STARTED | Planned |
 | 04 | Offshore platform versus subsea development | NOT STARTED | Planned |
