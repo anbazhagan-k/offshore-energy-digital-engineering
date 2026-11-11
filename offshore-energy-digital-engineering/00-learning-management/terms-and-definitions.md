@@ -11,6 +11,17 @@
 - Do not treat a term as mastered merely because it appears here; use the lesson exercises and review questions to test understanding.
 - If a term is discussed as an early clarification before a lesson is complete, it may be recorded as **Introduced — review with lesson**.
 
+## Excel and Data Analytics
+
+| Term | Definition | Example / context | Learning status |
+|---|---|---|---|
+| IF function | A logical function that tests a condition and returns one value when the condition is TRUE and another when it is FALSE. | `=IF(B2>5,"High","Normal")` classifies an equipment quantity. | Practised — additional exercises pending |
+| Logical test | A condition evaluated as TRUE or FALSE, often using a comparison operator. | `B2>=20` checks whether a pressure value is at least 20 bar. | Practised |
+| Comparison operator | A symbol used to compare two values, such as equal to, greater than or less than. | `>=` means greater than or equal to; `<>` means not equal to. | Practised |
+| Nested IF | An IF function placed inside another IF function's result argument to evaluate multiple possible conditions in sequence. | Classifying equipment pressure as Very Low, Low, Normal, High or Critical. | Practised — additional exercise pending |
+| VALUE function | Converts a text string that represents a number into a numeric value. | `VALUE(B2)` can convert numeric text before a comparison in an IF formula. | Used in practice |
+| Boundary value | A value exactly at a threshold where the classification may change. | If the rule is pressure greater than or equal to 20, exactly 20 must meet the condition. | Practised |
+
 ## Offshore Energy Fundamentals
 
 | Term | Definition | Example / context | Learning status |
@@ -26,6 +37,7 @@
 | Date | Study / lesson | Update |
 |---|---|---|
 | 2026-11-10 | Module 01 — Offshore Energy Fundamentals | Created the glossary and recorded the terms already introduced: acreage, upstream, midstream, downstream and oil and gas value chain. |
+| 2026-11-11 | Module 10 — Excel IF and Nested IF | Added IF function, logical test, comparison operator, Nested IF, VALUE function and boundary value. |
 
 ## Pending additions
 
