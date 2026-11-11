@@ -12,16 +12,17 @@ A practical Excel learning track for engineering information and asset data mana
 | 04 | Copying formulas and Fill Handle | STUDIED / PRACTISED | [Open lesson](04-copying-formulas-and-fill-handle.md) |
 | 05 | Data types, number formats and dates | STUDIED | [Open lesson](05-data-types-and-date-formatting.md) |
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | [Open lesson](06-sorting-filtering-and-tables.md) |
-| 07 | Logical functions — IF, AND, OR | NOT STARTED | — |
-| 08 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
-| 09 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
-| 10 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
+| 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | [Open lesson](07-if-and-nested-if.md) |
+| 08 | AND, OR and combining logical functions | NOT STARTED | — |
+| 09 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
+| 10 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
+| 11 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
 
 ## Current learning position
 
-The beginner foundation lessons through sorting, filtering and Excel Tables have been introduced. The learner has practised basic calculation functions, cell references and formula copying. The Excel Table and structured-reference exercise was demonstrated in a screenshot.
+The learner has practised basic IF conditions, comparison operators, threshold and boundary-value handling, numeric-text conversion with VALUE, and Nested IF classifications. The additional maintenance-risk Nested IF exercise remains pending. Sorting/filtering and Excel Table practice also still needs verification.
 
-**Next lesson:** Chapter 7 — Logical functions (IF, AND and OR), after completing the remaining filtering practice.
+**Next lesson:** AND, OR and combining them with IF.
 
 ## Learning method
 
