@@ -27,6 +27,8 @@
 | Term | Definition | Example / context | Learning status |
 |---|---|---|---|
 | Acreage | A defined geographical area over which a company or licence holder has rights to explore for or develop oil and gas, subject to the applicable licence or contract. | An offshore exploration block covering 3,000 km². Acreage describes the area, not the quantity of oil or gas. | Introduced — review with Lesson 01 |
+| Seismic studies (seismic surveys) | Geophysical investigations that use sound waves and their reflected signals to help map underground rock layers and geological structures. In marine surveys, specialised vessels generate sound signals and record reflections using equipment such as streamers or ocean-bottom sensors. Seismic data helps geoscientists assess an area and identify possible hydrocarbon traps; it does not by itself prove that oil or gas is present. | A seismic vessel surveys an offshore block and the interpreted data helps identify a potential drilling target. | Introduced — review with Lesson 01 |
+| Prospect | A geological feature or potential drilling target that has been identified and evaluated as having a reasonable possibility of containing hydrocarbons, based on available geological and geophysical evidence. A prospect is not a discovery; drilling is needed to test it. | Seismic interpretation identifies a subsurface structure that the exploration team recommends for an exploration well. | Introduced — review with Lesson 01 |
 | Upstream | The part of the oil and gas value chain concerned with exploration, appraisal, field development and production. | Seismic surveys, exploration wells, subsea trees and offshore production platforms. | Introduced — review with Lesson 01 |
 | Midstream | Activities and infrastructure that gather, process, transport and store hydrocarbons between production and downstream markets. | Gathering pipelines, gas processing, compressor stations, export terminals and storage. | Introduced — review with Lesson 01 |
 | Downstream | Activities that refine or process hydrocarbons into products and distribute or sell those products to customers. | Oil refining, petrochemical production and fuel distribution. | Introduced — review with Lesson 01 |
@@ -38,12 +40,13 @@
 |---|---|---|
 | 2026-11-10 | Module 01 — Offshore Energy Fundamentals | Created the glossary and recorded the terms already introduced: acreage, upstream, midstream, downstream and oil and gas value chain. |
 | 2026-11-11 | Module 10 — Excel IF and Nested IF | Added IF function, logical test, comparison operator, Nested IF, VALUE function and boundary value. |
+| 2026-11-11 | Module 01 — Offshore Energy Fundamentals | Reviewed and expanded Acreage; added Seismic studies (seismic surveys) and Prospect. |
 
 ## Pending additions
 
 The following terms are covered in Lesson 01 but will be added to this glossary when that lesson is completed and reviewed:
 
-- Exploration, appraisal, prospect and discovery
+- Exploration, appraisal and discovery
 - Exploration block and licence
 - Fixed platform, jack-up rig, semi-submersible and drillship
 - FPSO, FSO, subsea development and tie-back
