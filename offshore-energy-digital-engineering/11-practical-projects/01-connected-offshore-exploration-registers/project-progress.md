@@ -17,3 +17,7 @@
 
 ## Completion rule
 A task is complete only after the learner has attempted the exercise, received review, corrected any errors and confirmed understanding.
+
+## Assessment update — 2026-11-11
+
+Task 01 first response reviewed: 3 correct, 1 incorrect and 1 requiring clarification. Feedback provided on stable identifiers versus descriptive names, and measurements versus units. Task remains IN PROGRESS; reinforcement check pending.
