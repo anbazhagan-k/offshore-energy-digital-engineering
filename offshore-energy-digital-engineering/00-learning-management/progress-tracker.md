@@ -23,7 +23,7 @@ Update this file after each lesson or exercise.
 | 07 Asset management | NOT STARTED | 0 | Pending |
 | 08 Digital engineering | NOT STARTED | 0 | Pending |
 | 09 EAM/CMMS platforms | NOT STARTED | 0 | Pending |
-| 10 Data analytics | IN PROGRESS | 0 | Excel foundations underway; see [Excel Practice tracker](../10-data-analytics/Excel%20Practice/progress-tracker.md) |
+| 10 Data analytics | IN PROGRESS | 0 | Excel foundations and IF/Nested IF practised; see [Excel Practice tracker](../10-data-analytics/Excel%20Practice/progress-tracker.md) |
 | 11 Practical projects | NOT STARTED | 0 | Pending |
 | 12 Industry standards | NOT STARTED | 0 | Pending |
 | 13 Career development | NOT STARTED | 0 | Pending |
@@ -35,7 +35,8 @@ Update this file after each lesson or exercise.
 | Lesson 01 — Oil & gas value chain and offshore asset lifecycle | IN PROGRESS | NOT STARTED | NOT STARTED | — | Study the new chapter, complete Exercises A–D and answer the assessment |
 | Offshore energy project lifecycle | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Offshore facility overview | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
-| Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and continue with logical functions |
+| Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and review outstanding foundations |
+| Excel logical functions — IF and Nested IF — 2026-11-11 | PRACTISED | MULTIPLE EXERCISES VERIFIED; ONE EXERCISE PENDING | CONCEPT CHECK 3/3; CLASSIFICATION EXERCISES VERIFIED | — | Complete maintenance-risk Nested IF exercise; then study AND and OR |
 
 ## Completion rule
 
