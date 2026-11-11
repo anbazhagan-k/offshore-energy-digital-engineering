@@ -86,3 +86,14 @@ After we review your answers, we will move to the next step: turning the starter
 - [ ] Complete the review with the tutor.
 
 Do not mark this task complete until the exercises have been reviewed.
+
+## Tutor review — first attempt (2026-11-11)
+
+Learner responses reviewed:
+- Correct: Block_ID is the unique identifier.
+- Clarification required: a descriptive Block_Name change does not normally change the stable Block_ID. Changes to licence identity or block boundaries require an authorised decision about record identity; EIM should not decide independently.
+- Correction required: area is described by Gross_Area plus Area_Unit, not Block_ID plus Block_Name.
+- Correct: Data_Source identifies where the information came from.
+- Correct: missing area units must be flagged and clarified rather than assumed.
+
+**Review outcome:** 3 correct, 1 incorrect, 1 requiring clarification. Task remains IN PROGRESS. Learner should complete a short reinforcement check before creating the Excel table.
