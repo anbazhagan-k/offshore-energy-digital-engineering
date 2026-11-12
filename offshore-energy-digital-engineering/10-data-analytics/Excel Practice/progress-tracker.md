@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-11  
+**Last updated:** 2026-11-12  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -14,10 +14,11 @@
 | 05 | Data types, number formats and dates | STUDIED | Date serial numbers explained; SUM result/date-format issue diagnosed | Concept check discussed |
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | Screenshot verifies Table1, ascending quantity order and structured-reference SUM | Filtering practice still to verify |
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | Multiple independent equipment exercises completed; comparison operators, threshold boundaries, VALUE and Nested IF covered | Nested IF concept check 3/3; pressure classification exercises 10/10 and 9/9 |
-| 08 | AND, OR and combining logical functions | NOT STARTED | Not started | Not started |
-| 09 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
-| 10 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
-| 11 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
+| 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
+| 09 | COUNTIF and COUNTIFS | STUDIED — INDEPENDENT PRACTICE PENDING | COUNTIF text/numerical criteria and COUNTIFS multiple/mixed criteria taught with equipment examples | Independent COUNTIF and COUNTIFS answers not yet submitted |
+| 10 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
+| 11 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
+| 12 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
 
 ## 2026-11-10 — Session record
 
@@ -64,14 +65,36 @@
 - Conceptual Nested IF check: 3/3 correct.
 - Additional maintenance-risk Nested IF exercise has been assigned but not yet completed.
 
+## 2026-11-12 — AND, OR, COUNTIF and COUNTIFS
+
+### AND, OR and combined logical functions
+
+- Learned that AND returns TRUE only when all conditions are TRUE.
+- Learned that OR returns TRUE when at least one condition is TRUE.
+- Applied IF + AND to a maintenance-priority scenario; all six predicted outcomes were correct.
+- Independently supplied the IF + OR formula `=IF(OR(B2>=365,C2="Critical"),"Yes","No")`; all seven outputs were correct (7/7).
+- Built and applied `=IF(OR(B2>=365,AND(B2>=180,C2="Critical")),"Immediate Attention","Normal")`; all nine outputs were correct (9/9).
+- Reinforced threshold boundaries: 365 qualifies for `>=365`, 364 does not; 180 qualifies for `>=180`, 179 does not.
+
+### COUNTIF and COUNTIFS
+
+- Studied COUNTIF syntax and counting text criteria such as Pump and Critical.
+- Studied numerical criteria and comparison operators: `>`, `<`, `>=`, `<=`, `=` and `<>`.
+- Learned that comparison criteria such as `">=180"` must be enclosed in quotation marks.
+- Studied COUNTIFS syntax and AND logic between criteria pairs.
+- Practised examples combining two text conditions and mixed text/numerical conditions.
+- Independent COUNTIF assessment was not submitted in this session.
+- COUNTIFS practice questions were introduced, but independent answers have not yet been submitted. Do not mark COUNTIF/COUNTIFS completed.
+
 ### Next actions
 
-1. Complete the pending maintenance-risk Nested IF exercise and verify 90, 180 and 365-day boundaries.
-2. Study AND and OR, then combine them with IF.
-3. Finish and verify filtering by Discipline; clear the filter to restore all records.
-4. Confirm the Excel Table name and practise adding a new row.
-5. Complete a short review of MIN, COUNT, COUNTA and COUNTBLANK.
-6. Return to VLOOKUP after the formula foundations are secure.
+1. Resume with the COUNTIFS practice questions in [Lesson 09](09-countif-and-countifs.md).
+2. Complete an independent COUNTIF/COUNTIFS assessment before progressing.
+3. Learn COUNTIFS with three or more conditions and date ranges.
+4. Return to the additional maintenance-risk Nested IF exercise.
+5. Finish and verify filtering by Discipline; clear the filter to restore all records.
+6. Complete a short review of MIN, COUNT, COUNTA and COUNTBLANK.
+7. Return to VLOOKUP after the formula foundations are secure.
 
 ## Status definitions
 
