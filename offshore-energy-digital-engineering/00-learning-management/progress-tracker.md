@@ -23,7 +23,7 @@ Update this file after each lesson or exercise.
 | 07 Asset management | NOT STARTED | 0 | Pending |
 | 08 Digital engineering | NOT STARTED | 0 | Pending |
 | 09 EAM/CMMS platforms | NOT STARTED | 0 | Pending |
-| 10 Data analytics | IN PROGRESS | 0 | Excel foundations and IF/Nested IF practised; see [Excel Practice tracker](../10-data-analytics/Excel%20Practice/progress-tracker.md) |
+| 10 Data analytics | IN PROGRESS | 0 | Excel foundations, IF/Nested IF, AND/OR and combined logical functions practised; COUNTIF/COUNTIFS studied with independent practice pending. See [Excel Practice tracker](../10-data-analytics/Excel%20Practice/progress-tracker.md) |
 | 11 Practical projects | NOT STARTED | 0 | Pending |
 | 12 Industry standards | NOT STARTED | 0 | Pending |
 | 13 Career development | NOT STARTED | 0 | Pending |
@@ -37,7 +37,9 @@ Update this file after each lesson or exercise.
 | Offshore energy project lifecycle | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Offshore facility overview | NOT STARTED | NOT STARTED | NOT STARTED | — | Study lesson |
 | Excel foundations — 2026-11-10 | IN PROGRESS | PARTIALLY COMPLETED | PARTIALLY VERIFIED | — | Finish filtering practice and review outstanding foundations |
-| Excel logical functions — IF and Nested IF — 2026-11-11 | PRACTISED | MULTIPLE EXERCISES VERIFIED; ONE EXERCISE PENDING | CONCEPT CHECK 3/3; CLASSIFICATION EXERCISES VERIFIED | — | Complete maintenance-risk Nested IF exercise; then study AND and OR |
+| Excel logical functions — IF and Nested IF — 2026-11-11 | PRACTISED | MULTIPLE EXERCISES VERIFIED; ONE EXERCISE PENDING | CONCEPT CHECK 3/3; CLASSIFICATION EXERCISES VERIFIED | — | Complete maintenance-risk Nested IF exercise |
+| Excel logical functions — AND and OR — 2026-11-12 | PRACTISED | IF + OR 7/7; IF + AND six outcomes correct; combined IF + OR + AND 9/9 | CORE LOGIC VERIFIED | — | Optional revision; proceed to COUNTIF/COUNTIFS |
+| Excel counting functions — COUNTIF and COUNTIFS — 2026-11-12 | STUDIED | Examples taught; independent practice pending | NOT YET ASSESSED | — | Resume COUNTIFS practice and complete independent assessment |
 
 ## Completion rule
 
