@@ -1,7 +1,7 @@
 # Excel Lesson 09 — COUNTIF and COUNTIFS
 
 **Study dates:** 2026-11-12 to 2026-11-13  
-**Status:** COUNTIFS PRACTISED — COUNTIF independent assessment still pending  
+**Status:** COUNTIF AND COUNTIFS PRACTISED — COMBINED REVIEW PENDING  
 **Application:** Counting equipment types, maintenance priorities and overdue assets in engineering registers.
 
 ## Learning objectives
@@ -239,8 +239,9 @@ Excel date criteria can also be constructed with `DATE()` and `&`:
 - COUNTIFS three-condition exercises: 3/3 correct.
 - COUNTIFS date-range exercises: 4/4 correct, including a three-condition equipment/date task.
 - Knowledge check: correctly identified that COUNTIFS requires all criteria to be satisfied (AND logic).
-- COUNTIF independent assessment: still pending.
+- COUNTIF independent assessment: 5/5 correct.
+- COUNTIF boundary-operator knowledge check: correct; distinguished `>180` (excludes 180) from `>=180` (includes 180).
 
 ## Next lesson
 
-Next: complete an independent COUNTIF assessment, then a short combined COUNTIF/COUNTIFS assessment. COUNTIFS multi-condition and date-range practice has been verified, but the lesson remains open until the single-condition COUNTIF assessment is passed. Do not move to SUMIF/SUMIFS yet.
+Next: complete a short combined COUNTIF/COUNTIFS assessment. Single-condition COUNTIF assessment and COUNTIFS multi-condition/date-range practice have been verified. Keep the lesson open until the combined review is passed. Do not move to SUMIF/SUMIFS yet.
