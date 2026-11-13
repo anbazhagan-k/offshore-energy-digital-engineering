@@ -1,7 +1,7 @@
 # Excel Lesson 09 — COUNTIF and COUNTIFS
 
-**Study date:** 2026-11-12  
-**Status:** STUDIED — independent practice and assessment still required  
+**Study dates:** 2026-11-12 to 2026-11-13  
+**Status:** COUNTIFS PRACTISED — COUNTIF independent assessment still pending  
 **Application:** Counting equipment types, maintenance priorities and overdue assets in engineering registers.
 
 ## Learning objectives
@@ -133,9 +133,9 @@ Expected result: **1**. Only C-101 meets both conditions.
 
 Expected result: **3** — P-101, C-101 and V-102.
 
-## 4. COUNTIFS practice — pending learner assessment
+## 4. COUNTIFS practice — completed learner practice
 
-Use the ten-record equipment dataset in Section 3. The learner has been shown these practice questions and formulas, but has not yet submitted independent answers. Do not mark them complete until attempted and checked.
+Use the ten-record equipment dataset in Section 3. The learner independently supplied the formulas and correct counts for all six exercises. All six were checked successfully.
 
 | No. | Question | Formula | Expected count |
 |---:|---|---|---:|
@@ -146,7 +146,82 @@ Use the ten-record equipment dataset in Section 3. The learner has been shown th
 | 5 | How many Critical items have fewer than 365 maintenance days? | `=COUNTIFS(D2:D11,"Critical",C2:C11,"<365")` | 0 |
 | 6 | How many Pumps have at least 200 maintenance days? | `=COUNTIFS(B2:B11,"Pump",C2:C11,">=200")` | 2 |
 
-## 5. Common errors to avoid
+### Verified results
+
+| No. | Learner formula / task | Verified result |
+|---:|---|---:|
+| 1 | Compressor + Critical | 1 — correct |
+| 2 | Valve + Critical | 1 — correct |
+| 3 | Pump + High | 1 — correct |
+| 4 | High priority + days >180 | 1 — correct |
+| 5 | Critical + days <365 | 0 — correct |
+| 6 | Pump + days >=200 | 2 — correct |
+| 7 | Pump + Critical + days >300 | 1 — correct |
+| 8 | Compressor + High + days >=300 | 1 — correct |
+| 9 | Valve + High + days <=180 | 1 — correct |
+
+## 5. Date-range counting with COUNTIFS
+
+A date range can be counted by applying two criteria to the same date column: one lower boundary and one upper boundary.
+
+Practice dataset (columns A:C, rows 2:9):
+
+| Inspection ID | Equipment (B) | Inspection Date (C) |
+|---|---|---|
+| INS-001 | Pump | 05-Jan-2026 |
+| INS-002 | Compressor | 15-Feb-2026 |
+| INS-003 | Valve | 10-Mar-2026 |
+| INS-004 | Pump | 20-Mar-2026 |
+| INS-005 | Compressor | 05-Apr-2026 |
+| INS-006 | Valve | 18-Apr-2026 |
+| INS-007 | Pump | 25-May-2026 |
+| INS-008 | Compressor | 10-Jun-2026 |
+
+### March and April 2026
+
+```excel
+=COUNTIFS(C2:C9,">=01-Mar-2026",C2:C9,"<=30-Apr-2026")
+```
+
+Result: **4** — INS-003, INS-004, INS-005 and INS-006.
+
+### April and May 2026
+
+```excel
+=COUNTIFS(C2:C9,">=01-Apr-2026",C2:C9,"<=31-May-2026")
+```
+
+Result: **3** — INS-005, INS-006 and INS-007.
+
+### March 2026 only
+
+```excel
+=COUNTIFS(C2:C9,">=01-Mar-2026",C2:C9,"<=31-Mar-2026")
+```
+
+Result: **2** — INS-003 and INS-004.
+
+### Pump inspections during March and April 2026
+
+```excel
+=COUNTIFS(C2:C9,">=01-Mar-2026",C2:C9,"<=30-Apr-2026",B2:B9,"Pump")
+```
+
+Result: **1** — INS-004.
+
+### More robust date criteria using DATE and concatenation
+
+Excel date criteria can also be constructed with `DATE()` and `&`:
+
+```excel
+=COUNTIFS(C2:C9,">="&DATE(2026,3,1),C2:C9,"<="&DATE(2026,4,30))
+```
+
+`&` joins the comparison operator text (such as `>=`) to the date value returned by `DATE()`, forming a criterion Excel can evaluate. This avoids relying on a typed date string's regional interpretation.
+
+**Practical note:** If date cells also contain times, an inclusive criterion such as `<=31-May-2026` may exclude records later than midnight on 31 May. For date-time data, use an exclusive upper boundary such as `<1-Jun-2026` (constructed with `DATE(2026,6,1)`) to include all times on 31 May.
+
+## 6. Common errors to avoid
 
 1. **Mismatched range sizes:** criteria ranges should cover corresponding rows. Avoid using B2:B11 with D2:D10.
 2. **Missing quotation marks:** text criteria such as `"Pump"` and comparison criteria such as `">=180"` need quotation marks.
@@ -160,9 +235,12 @@ Use the ten-record equipment dataset in Section 3. The learner has been shown th
 - COUNTIF numerical criteria and comparison operators: studied through examples.
 - COUNTIFS syntax and multiple text criteria: studied through examples.
 - COUNTIFS with text and numerical criteria: studied through examples.
-- Independent COUNTIF assessment: not yet recorded.
-- Independent COUNTIFS assessment: pending; questions are listed in Section 4.
+- COUNTIFS two-condition exercises: 6/6 correct.
+- COUNTIFS three-condition exercises: 3/3 correct.
+- COUNTIFS date-range exercises: 4/4 correct, including a three-condition equipment/date task.
+- Knowledge check: correctly identified that COUNTIFS requires all criteria to be satisfied (AND logic).
+- COUNTIF independent assessment: still pending.
 
 ## Next lesson
 
-Complete the pending COUNTIFS questions independently. Then learn three or more criteria, date ranges and practical document-register reporting. Do not move to SUMIF/SUMIFS until COUNTIF and COUNTIFS are understood and practised.
+Next: complete an independent COUNTIF assessment, then a short combined COUNTIF/COUNTIFS assessment. COUNTIFS multi-condition and date-range practice has been verified, but the lesson remains open until the single-condition COUNTIF assessment is passed. Do not move to SUMIF/SUMIFS yet.
