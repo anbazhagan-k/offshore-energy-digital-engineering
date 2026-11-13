@@ -15,7 +15,7 @@
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | Screenshot verifies Table1, ascending quantity order and structured-reference SUM | Filtering practice still to verify |
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | Multiple independent equipment exercises completed; comparison operators, threshold boundaries, VALUE and Nested IF covered | Nested IF concept check 3/3; pressure classification exercises 10/10 and 9/9 |
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
-| 09 | COUNTIF and COUNTIFS | COUNTIFS PRACTISED — COUNTIF ASSESSMENT PENDING | 6/6 two-condition, 3/3 three-condition and 4/4 date-range exercises correct; date-range + equipment filter also correct | COUNTIFS knowledge check correct (AND logic); independent COUNTIF assessment pending |
+| 09 | COUNTIF and COUNTIFS | COUNTIF AND COUNTIFS PRACTISED — COMBINED REVIEW PENDING | 5/5 independent COUNTIF questions correct; 6/6 two-condition, 3/3 three-condition and 4/4 date-range COUNTIFS exercises correct | COUNTIF boundary check correct (`>180` excludes 180; `>=180` includes 180); COUNTIFS AND-logic check correct; combined review pending |
 | 10 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
 | 11 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
 | 12 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
@@ -127,3 +127,24 @@ Do not mark a lesson COMPLETED until the learner can explain the concept, comple
 - COUNTIFS multi-condition and date-range practice: verified.
 - COUNTIF single-condition independent assessment: still pending. Lesson 09 remains open; do not mark it COMPLETED yet.
 - Next: conduct the independent COUNTIF assessment, then update the lesson status based on results.
+
+
+## 2026-11-13 — COUNTIF independent assessment
+
+### Assessment completed and verified
+
+Using the eight-record maintenance-age dataset, the learner independently answered all five COUNTIF questions correctly:
+
+1. Days >180: `=COUNTIF(B2:B9,">180")` → 4.
+2. Days >=180: `=COUNTIF(B2:B9,">=180")` → 5.
+3. Days exactly 365: `=COUNTIF(B2:B9,"=365")` → 1.
+4. Days not equal to 365: `=COUNTIF(B2:B9,"<>365")` → 7.
+5. Equipment type Pump: `=COUNTIF(A2:A9,"Pump")` → 2.
+
+Score: **5/5**. The learner also correctly explained that `>180` excludes 180 while `>=180` includes 180.
+
+### Current status and next action
+
+- COUNTIF single-condition assessment: passed.
+- COUNTIFS multi-condition and date-range practice: verified.
+- Lesson 09 remains open for one short combined COUNTIF/COUNTIFS review before completion.
