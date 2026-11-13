@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-12  
+**Last updated:** 2026-11-13  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -15,7 +15,7 @@
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | Screenshot verifies Table1, ascending quantity order and structured-reference SUM | Filtering practice still to verify |
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | Multiple independent equipment exercises completed; comparison operators, threshold boundaries, VALUE and Nested IF covered | Nested IF concept check 3/3; pressure classification exercises 10/10 and 9/9 |
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
-| 09 | COUNTIF and COUNTIFS | STUDIED — INDEPENDENT PRACTICE PENDING | COUNTIF text/numerical criteria and COUNTIFS multiple/mixed criteria taught with equipment examples | Independent COUNTIF and COUNTIFS answers not yet submitted |
+| 09 | COUNTIF and COUNTIFS | COUNTIFS PRACTISED — COUNTIF ASSESSMENT PENDING | 6/6 two-condition, 3/3 three-condition and 4/4 date-range exercises correct; date-range + equipment filter also correct | COUNTIFS knowledge check correct (AND logic); independent COUNTIF assessment pending |
 | 10 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
 | 11 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
 | 12 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
@@ -108,3 +108,22 @@
 ## Completion rule
 
 Do not mark a lesson COMPLETED until the learner can explain the concept, complete an independent exercise, check the result and answer a short knowledge assessment.
+
+
+## 2026-11-13 — COUNTIFS multi-condition and date-range practice
+
+### Practice completed and verified
+
+- Completed all six original COUNTIFS exercises independently; all six formulas and counts were correct.
+- Completed three additional three-condition exercises: Pump + Critical + days >300 (1), Compressor + High + days >=300 (1), and Valve + High + days <=180 (1). All correct.
+- Learned date-range counting by applying lower and upper date criteria to the same date column.
+- Independently counted March–April 2026 inspections (4), April–May 2026 inspections (3), and March 2026 inspections (2). All correct.
+- Independently combined Equipment = Pump with the March–April date range; result 1 was correct.
+- Reviewed `&` concatenation with `DATE()` to construct robust date criteria.
+- Correctly answered the knowledge check that COUNTIFS requires all criteria to be satisfied (AND logic).
+
+### Current status and next action
+
+- COUNTIFS multi-condition and date-range practice: verified.
+- COUNTIF single-condition independent assessment: still pending. Lesson 09 remains open; do not mark it COMPLETED yet.
+- Next: conduct the independent COUNTIF assessment, then update the lesson status based on results.
