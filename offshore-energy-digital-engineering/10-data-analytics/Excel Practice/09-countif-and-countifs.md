@@ -1,7 +1,7 @@
 # Excel Lesson 09 — COUNTIF and COUNTIFS
 
 **Study dates:** 2026-11-12 to 2026-11-13  
-**Status:** COUNTIF AND COUNTIFS PRACTISED — COMBINED REVIEW PENDING  
+**Status:** COMPLETED — COMBINED ASSESSMENT PASSED  
 **Application:** Counting equipment types, maintenance priorities and overdue assets in engineering registers.
 
 ## Learning objectives
@@ -229,7 +229,7 @@ Excel date criteria can also be constructed with `DATE()` and `&`:
 4. **Misunderstanding COUNTIFS:** all criteria pairs must be satisfied. COUNTIFS uses AND logic, not OR logic.
 5. **Counting the wrong field:** use the Type column for equipment type, Priority for priority, and Days for maintenance age.
 
-## 6. Learning status
+## 7. Learning status
 
 - COUNTIF syntax and text criteria: studied through examples.
 - COUNTIF numerical criteria and comparison operators: studied through examples.
@@ -242,6 +242,58 @@ Excel date criteria can also be constructed with `DATE()` and `&`:
 - COUNTIF independent assessment: 5/5 correct.
 - COUNTIF boundary-operator knowledge check: correct; distinguished `>180` (excludes 180) from `>=180` (includes 180).
 
+## 6. OR logic and Inclusion–Exclusion — completed practice
+
+COUNTIF counts records meeting one condition. COUNTIFS counts records meeting all supplied criteria (AND logic). To combine separate conditions with OR logic, add the individual counts and subtract overlaps that would otherwise be counted more than once.
+
+### Two-condition OR
+
+For Pump OR days overdue >400:
+
+```excel
+=COUNTIF(B2:B9,"Pump")+COUNTIF(C2:C9,">400")-COUNTIFS(B2:B9,"Pump",C2:C9,">400")
+```
+
+The learner independently constructed the formula and understood the overlap subtraction.
+
+### Three-condition OR
+
+For Critical priority OR days overdue >300 OR Failed inspection status, the learner independently calculated:
+- Critical priority: 3
+- Days overdue >300: 3
+- Failed inspection: 4
+- Critical AND days >300: 2
+- Critical AND Failed: 2
+- Days >300 AND Failed: 3
+- All three conditions: 2
+
+The learner correctly constructed the three-condition inclusion–exclusion formula and corrected the final triple-overlap term to addition. Final count: **5 records**.
+
+### Combined assessment — passed 5/5
+
+1. COUNTIF days overdue >200: formula correct; result 4.
+2. COUNTIFS Pump AND days overdue >100: formula correct; result 1.
+3. COUNTIFS Compressor AND days >100 AND days <400: formula correct; result 2 (C-101 and C-102).
+4. Pump OR days overdue >400: inclusion–exclusion formula correct; result 3.
+5. (Compressor AND days >100) OR (Valve AND days >300): formula correct; result 3.
+
+Knowledge check: correctly explained that the triple overlap is added back because pairwise subtraction removes those records three times.
+
+## 8. Learning status
+
+- COUNTIF syntax and text criteria: studied and independently practised.
+- COUNTIF numerical criteria and comparison operators: studied and independently practised.
+- COUNTIFS syntax and multiple text criteria: studied and independently practised.
+- COUNTIFS with text and numerical criteria: studied and independently practised.
+- COUNTIFS two-condition exercises: 6/6 correct.
+- COUNTIFS three-condition exercises: 3/3 correct.
+- COUNTIFS date-range exercises: 4/4 correct, including a three-condition equipment/date task.
+- COUNTIF independent assessment: 5/5 correct.
+- COUNTIF boundary-operator knowledge check: correct; distinguished `>180` (excludes 180) from `>=180` (includes 180).
+- Two-condition OR formula: independently constructed and verified.
+- Three-condition OR inclusion–exclusion: independently worked through; final count 5.
+- Combined COUNTIF/COUNTIFS assessment: **5/5 passed**.
+
 ## Next lesson
 
-Next: complete a short combined COUNTIF/COUNTIFS assessment. Single-condition COUNTIF assessment and COUNTIFS multi-condition/date-range practice have been verified. Keep the lesson open until the combined review is passed. Do not move to SUMIF/SUMIFS yet.
+Lesson 09 is complete. Next, proceed to practical SUMIF/SUMIFS and engineering-register analysis, while retaining VLOOKUP as deferred until the lookup sequence is scheduled.
