@@ -14,7 +14,7 @@ A practical Excel learning track for engineering information and asset data mana
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | [Open lesson](06-sorting-filtering-and-tables.md) |
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | [Open lesson](07-if-and-nested-if.md) |
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | [Open lesson](08-and-or-and-combined-logical-functions.md) |
-| 09 | COUNTIF and COUNTIFS | COUNTIF AND COUNTIFS PRACTISED — COMBINED REVIEW PENDING | [Open lesson](09-countif-and-countifs.md) |
+| 09 | COUNTIF and COUNTIFS | COMPLETED — ASSESSMENT 5/5 | [Open lesson](09-countif-and-countifs.md) |
 | 10 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
 | 11 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
 | 12 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
@@ -23,9 +23,9 @@ A practical Excel learning track for engineering information and asset data mana
 
 The learner has practised IF, Nested IF, AND, OR, and combinations of these functions. The IF + OR exercise was verified at 7/7, the IF + AND logic was correctly applied in a six-record exercise, and the combined IF + OR + AND exercise was verified at 9/9. The additional maintenance-risk Nested IF exercise remains pending.
 
-COUNTIFS practice has been verified: six two-condition exercises, three three-condition exercises and four date-range tasks were completed correctly. The learner also correctly explained COUNTIFS AND logic and used `DATE()` with `&` to construct date criteria. The independent COUNTIF assessment is passed (5/5), including the boundary-operator knowledge check. A short combined COUNTIF/COUNTIFS review remains before Lesson 09 can be marked complete. Sorting/filtering and Excel Table practice also still needs verification.
+COUNTIFS practice has been verified: six two-condition exercises, three three-condition exercises and four date-range tasks were completed correctly. The learner passed the independent COUNTIF assessment (5/5) and the combined COUNTIF/COUNTIFS assessment (5/5). Two-condition and three-condition OR logic, including the Inclusion–Exclusion Principle, were practised and the learner correctly explained why the triple overlap is added back. Lesson 09 is now complete. Sorting/filtering and Excel Table practice still needs verification.
 
-**Next lesson:** Complete a short combined COUNTIF/COUNTIFS review.
+**Next lesson:** Begin practical SUMIF/SUMIFS with engineering-register examples.
 
 ## Learning method
 
