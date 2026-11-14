@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-13  
+**Last updated:** 2026-11-14  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -15,7 +15,7 @@
 | 06 | Sorting, filtering and Excel Tables | IN PROGRESS | Screenshot verifies Table1, ascending quantity order and structured-reference SUM | Filtering practice still to verify |
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | Multiple independent equipment exercises completed; comparison operators, threshold boundaries, VALUE and Nested IF covered | Nested IF concept check 3/3; pressure classification exercises 10/10 and 9/9 |
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
-| 09 | COUNTIF and COUNTIFS | COUNTIF AND COUNTIFS PRACTISED — COMBINED REVIEW PENDING | 5/5 independent COUNTIF questions correct; 6/6 two-condition, 3/3 three-condition and 4/4 date-range COUNTIFS exercises correct | COUNTIF boundary check correct (`>180` excludes 180; `>=180` includes 180); COUNTIFS AND-logic check correct; combined review pending |
+| 09 | COUNTIF and COUNTIFS | COMPLETED | COUNTIF assessment 5/5; COUNTIFS two-condition 6/6, three-condition 3/3, date-range 4/4; two- and three-condition OR practice; combined assessment 5/5 | Passed combined review and inclusion–exclusion knowledge check on 2026-11-14 |
 | 10 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
 | 11 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
 | 12 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
@@ -95,6 +95,28 @@
 5. Finish and verify filtering by Discipline; clear the filter to restore all records.
 6. Complete a short review of MIN, COUNT, COUNTA and COUNTBLANK.
 7. Return to VLOOKUP after the formula foundations are secure.
+
+## 2026-11-14 — COUNTIF/COUNTIFS combined review and Lesson 09 completion
+
+### Practice and assessment completed
+
+- Completed a three-condition OR exercise using Critical priority, days overdue >300 and Failed inspection status.
+- Independently calculated all three individual counts, all three pairwise overlaps and the triple overlap.
+- Correctly used the three-set Inclusion–Exclusion Principle: add the individual counts, subtract each pairwise overlap, then add the triple overlap once.
+- Corrected the triple-overlap term from subtraction to addition after reviewing why it must be restored; final result was 5 equipment records.
+- Passed the combined five-question COUNTIF/COUNTIFS assessment (5/5):
+  1. COUNTIF days overdue >200: 4.
+  2. Pump AND days overdue >100: 1.
+  3. Compressor AND days >100 AND days <400: 2.
+  4. Pump OR days overdue >400: 3.
+  5. (Compressor AND days >100) OR (Valve AND days >300): 3.
+- Independently constructed the formulas for all five questions.
+- Correctly explained why the triple overlap is added back: it was removed three times by the pairwise subtractions.
+
+### Status and next action
+
+- Lesson 09 — COUNTIF and COUNTIFS: **COMPLETED**.
+- Next: begin practical SUMIF/SUMIFS with engineering-register examples. Keep VLOOKUP deferred until the lookup sequence is appropriate.
 
 ## Status definitions
 
