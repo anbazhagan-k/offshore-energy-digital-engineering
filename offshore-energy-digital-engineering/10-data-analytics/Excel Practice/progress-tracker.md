@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-14  
+**Last updated:** 2026-11-15  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -170,3 +170,36 @@ Score: **5/5**. The learner also correctly explained that `>180` excludes 180 wh
 - COUNTIF single-condition assessment: passed.
 - COUNTIFS multi-condition and date-range practice: verified.
 - Lesson 09 remains open for one short combined COUNTIF/COUNTIFS review before completion.
+
+
+## 2026-11-15 — SUMIF and SUMIFS completion
+
+### Concepts and practice completed
+
+- Studied SUMIF syntax and independently practised text criteria, numerical criteria, inclusive and exclusive comparisons, and cell-reference criteria.
+- Practised wildcard criteria: starts with (`Pump*`), ends with (`*Pump`), contains (`*Pump*`) and single-character wildcard (`?`).
+- Studied SUMIFS syntax and the difference in argument order: SUMIF starts with the criteria range; SUMIFS starts with the sum range.
+- Independently practised two- and three-condition SUMIFS calculations using AND logic.
+- Practised numerical thresholds and bounded ranges by applying two criteria to the maintenance-cost range.
+- Used cell references and concatenation (`&`) to create dynamic numerical criteria.
+- Learned that hardcoding means entering criteria directly in a formula, while cell references make criteria dynamic.
+- Practised OR logic by adding separate SUMIFS calculations.
+- Practised combined AND + OR logic with two multi-condition groups.
+- Discussed double-counting when a record qualifies for both groups.
+- Diagnosed a SUMIF result of 0.00 caused by maintenance-cost values stored as text. Converted values into numeric values in helper column D and verified the correct total.
+
+### Independent assessment
+
+Passed all five assessment questions (5/5):
+
+1. Maintenance cost > ₹20,000: ₹77,000. Passed after converting text values to numbers.
+2. Pump AND Critical: ₹30,000. Correct.
+3. Critical AND maintenance cost > ₹15,000: ₹43,000. Correct.
+4. Critical OR High: ₹1,27,000. Initially used an AND-style formula, then corrected it to two SUMIFS calculations added together.
+5. (Pump AND Critical) OR (Compressor AND High): ₹60,000. Correct.
+
+### Status and next action
+
+- Lesson 10 — SUMIF and SUMIFS: **COMPLETED**.
+- Next lesson: AVERAGEIF and AVERAGEIFS, using offshore equipment performance and maintenance datasets.
+- VLOOKUP remains deferred until the lookup sequence is appropriate.
