@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-15  
+**Last updated:** 2026-11-16  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -16,9 +16,11 @@
 | 07 | IF and Nested IF | PRACTISED — ADDITIONAL EXERCISE PENDING | Multiple independent equipment exercises completed; comparison operators, threshold boundaries, VALUE and Nested IF covered | Nested IF concept check 3/3; pressure classification exercises 10/10 and 9/9 |
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
 | 09 | COUNTIF and COUNTIFS | COMPLETED | COUNTIF assessment 5/5; COUNTIFS two-condition 6/6, three-condition 3/3, date-range 4/4; two- and three-condition OR practice; combined assessment 5/5 | Passed combined review and inclusion–exclusion knowledge check on 2026-11-14 |
-| 10 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
-| 11 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
-| 12 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
+| 10 | SUMIF and SUMIFS | COMPLETED | Five-question independent assessment passed (5/5) on 2026-11-15 | Passed 5/5 |
+| 11 | AVERAGEIF and AVERAGEIFS | IN PROGRESS | Text, numeric, dynamic and wildcard criteria; two-/three-condition AND; OR logic and overlap concepts practised | Combined-average independent assessment pending |
+| 12 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
+| 13 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
+| 14 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
 
 ## 2026-11-10 — Session record
 
@@ -203,3 +205,30 @@ Passed all five assessment questions (5/5):
 - Lesson 10 — SUMIF and SUMIFS: **COMPLETED**.
 - Next lesson: AVERAGEIF and AVERAGEIFS, using offshore equipment performance and maintenance datasets.
 - VLOOKUP remains deferred until the lookup sequence is appropriate.
+
+
+## 2026-11-16 — AVERAGEIF and AVERAGEIFS practice
+
+### Concepts and practice completed
+
+- Studied AVERAGEIF syntax and the roles of criteria range, criterion and average range.
+- Independently wrote correct AVERAGEIF formulas for Pump equipment and Critical priority.
+- Practised numeric criteria, including greater-than and greater-than-or-equal-to comparisons.
+- Practised dynamic numeric criteria using concatenation, for example `">="&E6`; correctly explained why `">=E6"` is literal text rather than a dynamic reference.
+- Practised wildcard criteria: begins with (`Pump*`) and contains (`*Pump*`). Correctly calculated the separate wildcard example average of ₹26,250 after aligning the formula to the actual worksheet columns.
+- Studied AVERAGEIFS syntax and its argument order: average range first, followed by criteria-range/criterion pairs.
+- Independently wrote correct AVERAGEIFS formulas using two and three simultaneous conditions (AND logic).
+- Practised mixed text and numeric conditions, dynamic cell references, and not-equal criteria (`<>Low`).
+- Practised OR logic by combining separate AVERAGEIFS groups. Learned that adding group averages does not produce the combined average; the group averages must be weighted by their record counts.
+- Identified overlapping OR groups: Critical count = 4, Pump count = 4, overlap (Pump AND Critical) = 2.
+- Correctly explained that overlapping records are double-counted if group totals and counts are simply added.
+- Learned the two-set Inclusion–Exclusion Principle and how to apply it separately to sums and counts before calculating a combined average.
+- Correct combined-average example: Critical total ₹120,000; Pump total ₹70,000; overlap total ₹45,000; unique total ₹145,000. Unique count = 4 + 4 − 2 = 6. Combined average = ₹24,166.67.
+- Corrected a function-selection misunderstanding: AVERAGE does not accept criteria; use AVERAGEIF for one condition and AVERAGEIFS for multiple conditions.
+
+### Status and next action
+
+- Lesson 11 — AVERAGEIF and AVERAGEIFS: **IN PROGRESS**.
+- Core concepts and exercises have been practised, but the learner has not yet independently completed the combined-average calculation and final assessment.
+- Next session: revise the overlap calculation, complete two independent combined-average exercises, then conduct a short assessment.
+- Keep the lesson open until the learner can independently complete the assessment and explain the results.
