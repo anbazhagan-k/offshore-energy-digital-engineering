@@ -2,7 +2,7 @@
 
 **Learning environment:** Google Sheets  
 **Certification alignment:** Microsoft Office Specialist: Excel Expert (Microsoft 365 Apps), MO-211  
-**Status:** IN PROGRESS — practice completed; combined-average assessment pending  
+**Status:** COMPLETED — independent combined-average assessment passed (4/5 fully correct on first attempt; one arithmetic correction reviewed)  
 **Session date:** 2026-11-16
 
 ## Learning objectives
@@ -220,12 +220,32 @@ The learner independently:
 - Explained the double-counting issue and learned the Inclusion–Exclusion Principle.
 - Was shown how to calculate the combined average using deduplicated totals and counts.
 
-## Remaining work
+## Assessment and completion — 2026-11-19
 
-- Practise the combined-average formula independently, including verifying the total and count.
-- Complete a short independent assessment covering AVERAGEIF, AVERAGEIFS, dynamic criteria, wildcard criteria, AND/OR and overlap handling.
-- Do not mark the lesson COMPLETED until the learner independently completes the assessment and explains the results.
+The learner resumed the lesson and independently worked through the combined-average problem for overlapping OR groups (Equipment = Pump OR Priority = Critical).
+
+### Concepts verified
+
+- Explained why simply averaging two group averages is not generally correct: groups with different record counts need different weights.
+- Correctly calculated weighted averages for groups of 5 and 3 records, obtaining ₹15,000.
+- Identified `COUNTIFS` as the function to count the intersection (Pump AND Critical).
+- Identified `SUMIFS` as the function to sum the intersection cost.
+- Independently constructed the combined-average formula using `SUMIF`, `SUMIFS`, `COUNTIF` and `COUNTIFS`.
+- Corrected the formula's operator-precedence issue by enclosing the complete numerator and denominator in parentheses.
+- Independently calculated the combined average in the final assessment as ₹27,857.14.
+
+### Independent assessment record
+
+Five assessment questions were attempted:
+
+1. Correct: ₹24,285.71.
+2. Correct method, but arithmetic inputs were transcribed incorrectly in the first calculation. Reviewed and corrected to ₹32,000.
+3. Correct: ₹30,000.
+4. Correct complete Excel formula for Compressor OR High, with overlap removed.
+5. Correct: ₹27,857.14.
+
+**Assessment outcome:** 4/5 fully correct on first attempt; one arithmetic correction was needed and reviewed. The learner demonstrated the combined-average method and independently produced the final correct calculation and formula structure. Lesson marked **COMPLETED**.
 
 ## Status
 
-**IN PROGRESS.** Core concepts and exercises have been practised. Combined-average independent practice and final assessment remain pending.
+**COMPLETED — 2026-11-19.** Core AVERAGEIF/AVERAGEIFS concepts, dynamic and wildcard criteria, AND/OR logic, weighted averages and overlap removal have been practised and assessed.
