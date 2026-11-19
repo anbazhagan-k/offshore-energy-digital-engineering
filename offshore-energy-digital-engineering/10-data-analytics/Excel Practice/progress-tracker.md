@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-16  
+**Last updated:** 2026-11-19  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -17,7 +17,7 @@
 | 08 | AND, OR and combining logical functions | PRACTISED — CORE EXERCISES VERIFIED | IF + OR formula and all seven outputs correct; IF + AND logic correctly applied; combined IF + OR + AND exercise 9/9 | Core examples verified; additional revision optional |
 | 09 | COUNTIF and COUNTIFS | COMPLETED | COUNTIF assessment 5/5; COUNTIFS two-condition 6/6, three-condition 3/3, date-range 4/4; two- and three-condition OR practice; combined assessment 5/5 | Passed combined review and inclusion–exclusion knowledge check on 2026-11-14 |
 | 10 | SUMIF and SUMIFS | COMPLETED | Five-question independent assessment passed (5/5) on 2026-11-15 | Passed 5/5 |
-| 11 | AVERAGEIF and AVERAGEIFS | IN PROGRESS | Text, numeric, dynamic and wildcard criteria; two-/three-condition AND; OR logic and overlap concepts practised | Combined-average independent assessment pending |
+| 11 | AVERAGEIF and AVERAGEIFS | COMPLETED | Criteria, wildcards, dynamic references, AND/OR, weighted averages and overlap removal practised; combined-average formula independently constructed | Passed 4/5 fully correct on first attempt; one arithmetic correction reviewed (2026-11-19) |
 | 12 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
 | 13 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
 | 14 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
@@ -232,3 +232,24 @@ Passed all five assessment questions (5/5):
 - Core concepts and exercises have been practised, but the learner has not yet independently completed the combined-average calculation and final assessment.
 - Next session: revise the overlap calculation, complete two independent combined-average exercises, then conduct a short assessment.
 - Keep the lesson open until the learner can independently complete the assessment and explain the results.
+
+
+## 2026-11-19 — Lesson 11 completion: AVERAGEIF and AVERAGEIFS
+
+### Practice and assessment completed
+
+- Resumed combined-average practice for overlapping OR groups (Pump OR Critical).
+- Correctly explained why group averages cannot simply be added or equally averaged when group sizes differ.
+- Independently calculated a weighted average for groups of 5 and 3 records: ₹15,000.
+- Correctly selected COUNTIFS to count the overlap and SUMIFS to sum the overlap.
+- Independently constructed the combined-average formula using SUMIF, SUMIFS, COUNTIF and COUNTIFS.
+- Corrected operator precedence by placing parentheses around the full numerator and denominator.
+- Completed a five-question combined-average assessment: four answers fully correct on the first attempt; one answer had an arithmetic transcription/calculation error, while the method was correct and the calculation was reviewed and corrected.
+- Correct final assessment result: ₹27,857.14.
+
+### Status and next action
+
+- Lesson 11 — AVERAGEIF and AVERAGEIFS: **COMPLETED** (2026-11-19).
+- Next lesson: Lesson 12 — MAXIFS and MINIFS.
+- Next session should begin with MAXIFS/MINIFS syntax and single-/multiple-condition examples using the synthetic equipment maintenance dataset.
+- User paused study after completing Lesson 11; resume when they return.
