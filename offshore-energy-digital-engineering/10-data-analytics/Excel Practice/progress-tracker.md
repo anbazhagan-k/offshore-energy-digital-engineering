@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-19  
+**Last updated:** 2026-11-20  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -18,9 +18,10 @@
 | 09 | COUNTIF and COUNTIFS | COMPLETED | COUNTIF assessment 5/5; COUNTIFS two-condition 6/6, three-condition 3/3, date-range 4/4; two- and three-condition OR practice; combined assessment 5/5 | Passed combined review and inclusion–exclusion knowledge check on 2026-11-14 |
 | 10 | SUMIF and SUMIFS | COMPLETED | Five-question independent assessment passed (5/5) on 2026-11-15 | Passed 5/5 |
 | 11 | AVERAGEIF and AVERAGEIFS | COMPLETED | Criteria, wildcards, dynamic references, AND/OR, weighted averages and overlap removal practised; combined-average formula independently constructed | Passed 4/5 fully correct on first attempt; one arithmetic correction reviewed (2026-11-19) |
-| 12 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
-| 13 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
-| 14 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
+| 12 | MAXIFS and MINIFS | IN PROGRESS | Independently practised single/multiple criteria, numeric thresholds, dynamic references, DATE() criteria and inclusive date ranges; final assessment pending | Pending |
+| 13 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
+| 14 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
+| 15 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
 
 ## 2026-11-10 — Session record
 
@@ -253,3 +254,26 @@ Passed all five assessment questions (5/5):
 - Next lesson: Lesson 12 — MAXIFS and MINIFS.
 - Next session should begin with MAXIFS/MINIFS syntax and single-/multiple-condition examples using the synthetic equipment maintenance dataset.
 - User paused study after completing Lesson 11; resume when they return.
+
+
+## 2026-11-20 — Lesson 12 MAXIFS and MINIFS practice
+
+### Concepts and practice completed
+
+- Learned MAXIFS and MINIFS syntax and the purpose of the maximum/minimum range and criteria-range/criterion pairs.
+- Independently wrote single-condition MAXIFS and MINIFS formulas using discipline criteria.
+- Practised multiple criteria using AND logic, including discipline plus a numeric maintenance-cost threshold.
+- Independently constructed dynamic criteria using cell references and concatenation (`">"&F2`).
+- Learned to construct date criteria using `DATE(year,month,day)`; corrected an initial attempt that used arithmetic (`1-1-2026`) rather than a date value.
+- Practised date boundaries using `>`, `>=`, `<` and `<=`.
+- Independently wrote MAXIFS and MINIFS formulas with inclusive date ranges.
+- Independently combined discipline, numeric threshold and date-range criteria in one MAXIFS formula.
+- One response used 2 January rather than the requested 1 January; the date-boundary distinction was identified and corrected.
+- One dynamic-reference formula used E3/F3 rather than the prompt's E2/F2; the formula structure was correct if the input cells were located in row 3.
+- Formula structures were checked. Actual date-based result values were not verified against a populated date dataset in this session.
+
+### Status and next action
+
+- Lesson 12 — MAXIFS and MINIFS: **IN PROGRESS**. Core practice completed; independent five-question assessment pending.
+- Resume with assessment Question 1: highest maintenance cost for Instrumentation equipment, using rows 2–20.
+- Do not mark Lesson 12 COMPLETED until the independent assessment is passed and reviewed.
