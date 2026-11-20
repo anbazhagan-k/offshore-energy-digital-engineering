@@ -17,17 +17,20 @@ A practical Excel learning track for engineering information and asset data mana
 | 09 | COUNTIF and COUNTIFS | COMPLETED — ASSESSMENT 5/5 | [Open lesson](09-countif-and-countifs.md) |
 | 10 | SUMIF and SUMIFS | COMPLETED — ASSESSMENT 5/5 | [Open lesson](10-sumif-and-sumifs.md) |
 | 11 | AVERAGEIF and AVERAGEIFS | COMPLETED — ASSESSMENT 4/5 FIRST-ATTEMPT | [Open lesson](11-averageif-and-averageifs.md) |
-| 12 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
-| 13 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
-| 14 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
+| 12 | MAXIFS and MINIFS | IN PROGRESS — core practice done; assessment pending | [Open lesson](12-maxifs-and-minifs.md) |
+| 13 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
+| 14 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
+| 15 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
 
 ## Current learning position
 
 The learner has completed COUNTIF/COUNTIFS (Lesson 09, assessment 5/5), SUMIF/SUMIFS (Lesson 10, assessment 5/5) and AVERAGEIF/AVERAGEIFS (Lesson 11, completed 2026-11-19). Lesson 11 covered text, numeric, dynamic and wildcard criteria; two- and three-condition AND logic; OR logic; weighted averages; and overlap/double-counting. The learner independently constructed the combined-average formula and passed the five-question assessment with four fully correct first-attempt answers; one arithmetic correction was reviewed.
 
+Lesson 12 — MAXIFS and MINIFS is now in progress (2026-11-20). Core practice covered single/multiple criteria, numeric thresholds, dynamic cell references, DATE() criteria and inclusive date ranges. The learner independently constructed a four-condition MAXIFS formula. The independent assessment remains pending; see [Lesson 12](12-maxifs-and-minifs.md) and the progress tracker.
+
 Earlier practice includes IF, Nested IF, AND, OR and combinations of logical functions. The additional maintenance-risk Nested IF exercise remains pending. Sorting/filtering and Excel Table practice still needs verification.
 
-**Next lesson:** Lesson 12 — MAXIFS and MINIFS. Begin with syntax, then practise highest and lowest maintenance costs using one and multiple criteria.
+**Current lesson:** Lesson 12 — MAXIFS and MINIFS. Core practice is complete; resume with the independent five-question assessment. VLOOKUP remains deferred and is now listed as Lesson 13.
 
 ## Learning method
 
