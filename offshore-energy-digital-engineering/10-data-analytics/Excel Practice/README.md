@@ -17,20 +17,27 @@ A practical Excel learning track for engineering information and asset data mana
 | 09 | COUNTIF and COUNTIFS | COMPLETED — ASSESSMENT 5/5 | [Open lesson](09-countif-and-countifs.md) |
 | 10 | SUMIF and SUMIFS | COMPLETED — ASSESSMENT 5/5 | [Open lesson](10-sumif-and-sumifs.md) |
 | 11 | AVERAGEIF and AVERAGEIFS | COMPLETED — ASSESSMENT 4/5 FIRST-ATTEMPT | [Open lesson](11-averageif-and-averageifs.md) |
-| 12 | MAXIFS and MINIFS | IN PROGRESS — core practice done; assessment pending | [Open lesson](12-maxifs-and-minifs.md) |
+| 12 | MAXIFS and MINIFS | COMPLETED — ASSESSMENT 5/5 AFTER CORRECTION | [Open lesson](12-maxifs-and-minifs.md) |
 | 13 | VLOOKUP fundamentals | DEFERRED — return after foundations | [Open lesson](01-vlookup-fundamentals.md) |
 | 14 | XLOOKUP fundamentals | COMPLETED IN EARLIER SESSION | — |
 | 15 | Reverse XLOOKUP and advanced lookups | NOT STARTED | — |
 
+## Supplementary logical-functions practice
+
+The learner is currently deepening IFS before moving to SWITCH. This is supplementary practice and does not change the lookup-topic numbering above.
+
+- [IFS and Advanced Logical Classification](ifs-advanced-logical-classification.md)
+- [IFS practice workbook and synthetic offshore asset dataset](ifs-practice/offshore_asset_maintenance_ifs_practice.xlsx)
+
+Current IFS topics: multiple classification bands, boundary values, first-TRUE evaluation, fallback TRUE, #N/A when no condition matches, blank and zero handling, AND/OR combinations, and nested AND/OR logic. Exercise 9 (three-field nested logic) is currently assigned. The learner should complete more practical exercises and an independent assessment before moving to SWITCH.
+
 ## Current learning position
 
-The learner has completed COUNTIF/COUNTIFS (Lesson 09, assessment 5/5), SUMIF/SUMIFS (Lesson 10, assessment 5/5) and AVERAGEIF/AVERAGEIFS (Lesson 11, completed 2026-11-19). Lesson 11 covered text, numeric, dynamic and wildcard criteria; two- and three-condition AND logic; OR logic; weighted averages; and overlap/double-counting. The learner independently constructed the combined-average formula and passed the five-question assessment with four fully correct first-attempt answers; one arithmetic correction was reviewed.
-
-Lesson 12 — MAXIFS and MINIFS is now in progress (2026-11-20). Core practice covered single/multiple criteria, numeric thresholds, dynamic cell references, DATE() criteria and inclusive date ranges. The learner independently constructed a four-condition MAXIFS formula. The independent assessment remains pending; see [Lesson 12](12-maxifs-and-minifs.md) and the progress tracker.
+Lessons 09–12 are complete. Lesson 12 — MAXIFS and MINIFS was completed on 2026-11-21 after the learner passed a five-question independent assessment (5/5 after correcting a dynamic criterion from `">F2"` to `">"&F2`). Formula structures were checked; assessment result values were not verified against a supplied dataset.
 
 Earlier practice includes IF, Nested IF, AND, OR and combinations of logical functions. The additional maintenance-risk Nested IF exercise remains pending. Sorting/filtering and Excel Table practice still needs verification.
 
-**Current lesson:** Lesson 12 — MAXIFS and MINIFS. Core practice is complete; resume with the independent five-question assessment. VLOOKUP remains deferred and is now listed as Lesson 13.
+**Current focus:** Supplementary IFS advanced logical classification practice. VLOOKUP remains deferred until the lookup sequence is appropriate.
 
 ## Learning method
 
