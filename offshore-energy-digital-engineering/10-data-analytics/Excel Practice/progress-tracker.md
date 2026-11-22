@@ -22,6 +22,7 @@
 | 13 | VLOOKUP fundamentals | DEFERRED | Introduced previously; paused to strengthen foundations | Pending |
 | 14 | XLOOKUP fundamentals | COMPLETED — EARLIER SESSION | Completed in an earlier learning session | Completed |
 | 15 | Reverse XLOOKUP and advanced lookup topics | NOT STARTED | Pending | Pending |
+| 16 | Supplementary IFS and advanced logical classification | COMPLETED (2026-11-22) | Exercises 9, 11 and 12 completed; nested AND/OR, status-aware and date-based classifications validated | Independent date-classification assessment passed; boundary tests 4/4; edge-case tests passed |
 
 ## 2026-11-21 — MAXIFS/MINIFS assessment and IFS advanced practice
 
@@ -62,13 +63,13 @@ Exercise 9 — nested classification across three fields: **formula construction
 
 Exercise 11 — status-aware IFS: **formula construction and manual validation PASSED (2026-11-22)**. The learner constructed an IFS formula using Work Order Status, Maintenance Cost, Downtime and Inspection Score, with six ordered rules for Completed, Escalate, Inspection Required, In Progress, Awaiting Action and Review Status. After correcting a `TURE` typo to `TRUE`, the learner manually classified five records correctly (5/5), demonstrating condition priority and fallback understanding.
 
-**Status:** Supplementary IFS practice remains **IN PROGRESS**. Do not move to SWITCH or mark complete until additional text/status and date-based classification practice and an independent assessment are completed.
+**Status:** Supplementary IFS practice **COMPLETED (2026-11-22)**. Exercises 9, 11 and 12 passed their specified construction and validation checks.
+
+Exercise 12 — date-based maintenance classification: **PASSED (2026-11-22)**. The learner built an IFS formula that classifies blank/zero as Missing Date; text, dates before 1-Jan-2000 and future dates as Invalid Date; dates more than 180 days old as Overdue; dates 150–180 days old inclusive as Due Soon; and all remaining valid dates as Within Cycle. The final formula used OR(H2="",H2=0), OR(NOT(ISNUMBER(H2)),H2<DATE(2000,1,1),H2>TODAY()), the elapsed-day thresholds, and a final TRUE fallback.
+
+Validation: five regular date examples passed; zero, text ("Pending") and pre-2000 date edge cases passed; independent assessment passed formula construction, four boundary cases (4/4) and explanation of condition priority. The learner correctly explained why zero must be caught before ISNUMBER(), since zero is numeric but the business rule treats it as missing.
 
 ### Next actions
 
-1. Practise date-based maintenance-cycle and overdue classification using the companion workbook.
-2. Test blank, zero, text and invalid-value cases.
-3. Complete an independent IFS assessment before marking supplementary practice complete.
-3. Complete an independent IFS assessment.
-4. Then begin SWITCH.
-5. Separately, return to the additional maintenance-risk Nested IF exercise and finish filtering by Discipline in the Excel Table.
+1. Begin SWITCH practice.
+2. Separately, return to the additional maintenance-risk Nested IF exercise and finish filtering by Discipline in the Excel Table.
