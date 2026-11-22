@@ -58,14 +58,17 @@ Learner evidence:
 - Practised a nested High condition: (cost > ₹100,000 OR downtime >80) AND score <70.
 - Corrected classification mistakes by tracing each IFS condition in order.
 
-Exercise 9 — nested classification across three fields: **formula construction PASSED (2026-11-22)**. The learner independently submitted the correct IFS formula with Critical, High, Medium and Low bands, correct nested AND/OR logic, and a final TRUE fallback. The Medium condition was corrected through guided practice. Record-level testing against multiple workbook rows remains pending.
+Exercise 9 — nested classification across three fields: **formula construction and record-level validation PASSED (2026-11-22)**. The learner independently submitted the correct IFS formula with Critical, High, Medium and Low bands, correct nested AND/OR logic, and a final TRUE fallback. All five tested workbook records matched the expected classifications: Medium, Medium, Low, Medium and Low.
+
+Exercise 11 — status-aware IFS: **formula construction and manual validation PASSED (2026-11-22)**. The learner constructed an IFS formula using Work Order Status, Maintenance Cost, Downtime and Inspection Score, with six ordered rules for Completed, Escalate, Inspection Required, In Progress, Awaiting Action and Review Status. After correcting a `TURE` typo to `TRUE`, the learner manually classified five records correctly (5/5), demonstrating condition priority and fallback understanding.
 
 **Status:** Supplementary IFS practice remains **IN PROGRESS**. Do not move to SWITCH or mark complete until additional text/status and date-based classification practice and an independent assessment are completed.
 
 ### Next actions
 
-1. Test the correct Exercise 9 formula against multiple workbook records and explain the classifications.
-2. Practise status-aware and date-based IFS classification using the companion workbook.
+1. Practise date-based maintenance-cycle and overdue classification using the companion workbook.
+2. Test blank, zero, text and invalid-value cases.
+3. Complete an independent IFS assessment before marking supplementary practice complete.
 3. Complete an independent IFS assessment.
 4. Then begin SWITCH.
 5. Separately, return to the additional maintenance-risk Nested IF exercise and finish filtering by Discipline in the Excel Table.
