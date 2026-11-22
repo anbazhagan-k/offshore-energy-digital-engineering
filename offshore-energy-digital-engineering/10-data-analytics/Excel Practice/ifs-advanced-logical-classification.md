@@ -2,7 +2,7 @@
 
 **Learning environment:** Google Sheets; formulas are compatible with Excel 365  
 **Career context:** Synthetic offshore asset maintenance and engineering information data  
-**Status:** IN PROGRESS  
+**Status:** COMPLETED (2026-11-22)  
 **Started:** 2026-11-21
 
 ## Purpose
@@ -129,7 +129,7 @@ The learner initially reused the prior High condition, then reviewed the require
 
 The formula matches the required rules. The learner corrected the Medium condition after feedback, changing it to `(cost > ₹50,000 AND inspection score <80) OR downtime >60`.
 
-**Record-level testing remains pending.** The learner must test the formula against multiple workbook records and trace why each result is returned.
+**Record-level testing: PASSED (2026-11-22).** Five workbook records were checked and all five classifications matched the expected results.
 
 Exercise 9 requirements:
 
@@ -138,7 +138,7 @@ Exercise 9 requirements:
 - Medium: (cost > ₹50,000 AND score < 80) OR downtime > 60.
 - Low: otherwise.
 
-The learner must independently construct the full IFS formula and test it against multiple records.
+The learner independently constructed the formula and validated five records.
 
 ## Exercise 9 — record-level validation
 
@@ -150,17 +150,40 @@ The learner must independently construct the full IFS formula and test it agains
 
 **Manual validation: PASSED (5/5).** The learner correctly predicted the first five records as In Progress, Awaiting Action, Completed, In Progress and Completed. The learner demonstrated understanding of rule priority and fallback behaviour.
 
-## Remaining work
+## Exercise 12 — date-based maintenance classification
 
-1. Practise date-based maintenance-cycle and overdue classification.
-2. Test blank, zero, text and invalid-value cases.
-3. Complete an independent IFS assessment before marking this supplementary practice complete.
-4. Only then proceed to SWITCH.
-3. Practise date-based maintenance-cycle and overdue classification.
-4. Test blank, zero, text and invalid-value cases.
-5. Complete an independent IFS assessment before marking this supplementary practice complete.
-6. Only then proceed to SWITCH.
+**Completed (2026-11-22).** The learner independently constructed and corrected a date-based IFS formula for the Last Maintenance Date in column H. The business rules were:
 
-## Completion rule
+1. Blank or zero → Missing Date.
+2. Text, a date before 1-Jan-2000, or a date after TODAY() → Invalid Date.
+3. More than 180 days ago → Overdue.
+4. Between 150 and 180 days ago, inclusive → Due Soon.
+5. Otherwise → Within Cycle.
 
-Do not mark this practice complete until the learner can explain condition order, construct nested logic independently, test boundary cases and pass a short assessment.
+Final formula:
+
+```excel
+=IFS(OR(H2="",H2=0),"Missing Date",OR(NOT(ISNUMBER(H2)),H2<DATE(2000,1,1),H2>TODAY()),"Invalid Date",TODAY()-H2>180,"Overdue",AND(TODAY()-H2>=150,TODAY()-H2<=180),"Due Soon",TRUE,"Within Cycle")
+```
+
+The learner demonstrated understanding of:
+- Why future dates must be checked before elapsed-day conditions.
+- Why OR(H2="",H2=0) must precede ISNUMBER(H2): zero is numeric but is defined by the business rule as a missing date.
+- Why NOT(ISNUMBER(H2)) catches text such as "Pending".
+- Why numeric date values also need a business-valid date range; ISNUMBER() alone does not establish that a number is a meaningful maintenance date.
+- AND() versus OR(), quotation marks for text, and comparison operators.
+- Inclusive boundaries: 180 and 150 days are Due Soon; 181 days is Overdue; 149 days is Within Cycle.
+
+Validation evidence:
+- Five regular examples passed: 14-Feb-2026 → Overdue; 02-Jun-2026 → Due Soon; 01-Jul-2026 → Within Cycle; blank → Missing Date; 25-Nov-2026 → Invalid Date (assuming 22-Nov-2026 as TODAY()).
+- Edge cases passed: zero → Missing Date; "Pending" → Invalid Date; 15-Mar-1998 → Invalid Date.
+- Independent assessment passed: formula construction corrected and accepted; four boundary tests passed (180 → Due Soon, 181 → Overdue, 149 → Within Cycle, 150 → Due Soon); condition-priority explanation was correct.
+- The learner initially confused an OR-validation result with the final classification on one question, then correctly distinguished validation FALSE from the later Overdue classification.
+
+## Completion summary
+
+**Supplementary IFS practice: COMPLETED (2026-11-22).** Exercises 9, 11 and 12 have passed formula construction and their specified validation/assessment checks. The learner demonstrated condition order, nested AND/OR logic, fallback handling, status-aware classification, date validation, boundary testing and edge-case reasoning.
+
+## Next step
+
+Proceed to SWITCH practice. Keep the separate maintenance-risk Nested IF exercise and Excel Table filtering by Discipline as independent follow-up items; they are not blockers for this supplementary IFS completion.
