@@ -1,6 +1,6 @@
 # Excel Practice — Progress Tracker
 
-**Last updated:** 2026-11-21  
+**Last updated:** 2026-11-22  
 **Learning focus:** Excel foundations for engineering information and asset data management.
 
 ## Lesson progress
@@ -58,13 +58,13 @@ Learner evidence:
 - Practised a nested High condition: (cost > ₹100,000 OR downtime >80) AND score <70.
 - Corrected classification mistakes by tracing each IFS condition in order.
 
-Current assigned task: Exercise 9 — combine three logical groups, including a Medium condition of (cost > ₹50,000 AND score <80) OR downtime >60. The learner has not yet submitted the formula.
+Exercise 9 — nested classification across three fields: **formula construction PASSED (2026-11-22)**. The learner independently submitted the correct IFS formula with Critical, High, Medium and Low bands, correct nested AND/OR logic, and a final TRUE fallback. The Medium condition was corrected through guided practice. Record-level testing against multiple workbook rows remains pending.
 
 **Status:** Supplementary IFS practice remains **IN PROGRESS**. Do not move to SWITCH or mark complete until additional text/status and date-based classification practice and an independent assessment are completed.
 
 ### Next actions
 
-1. Complete IFS Exercise 9 with nested conditions across three fields.
+1. Test the correct Exercise 9 formula against multiple workbook records and explain the classifications.
 2. Practise status-aware and date-based IFS classification using the companion workbook.
 3. Complete an independent IFS assessment.
 4. Then begin SWITCH.
