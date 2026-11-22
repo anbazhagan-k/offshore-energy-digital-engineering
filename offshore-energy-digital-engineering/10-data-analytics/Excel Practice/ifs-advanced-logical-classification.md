@@ -119,7 +119,19 @@ The learner initially reused the prior High condition, then reviewed the require
 
 ## Current advanced exercise
 
-Exercise 9 is assigned but not yet answered:
+### Exercise 9 — nested classification across three fields
+
+**Formula construction: PASSED (2026-11-22).** The learner independently submitted the correct IFS formula with all four classification bands and the correct condition order:
+
+```excel
+=IFS(AND(E2>150000,OR(F2>100,G2<40)),"Critical",AND(OR(E2>100000,F2>80),G2<70),"High",OR(AND(E2>50000,G2<80),F2>60),"Medium",TRUE,"Low")
+```
+
+The formula matches the required rules. The learner corrected the Medium condition after feedback, changing it to `(cost > ₹50,000 AND inspection score <80) OR downtime >60`.
+
+**Record-level testing remains pending.** The learner must test the formula against multiple workbook records and trace why each result is returned.
+
+Exercise 9 requirements:
 
 - Critical: cost > ₹150,000 AND (downtime > 100 OR score < 40).
 - High: (cost > ₹100,000 OR downtime > 80) AND score < 70.
@@ -130,7 +142,7 @@ The learner must independently construct the full IFS formula and test it agains
 
 ## Remaining work
 
-1. Complete Exercise 9 with nested conditions across three fields.
+1. Test the correct Exercise 9 formula against multiple workbook records and explain the returned classifications.
 2. Practise text/status-aware classification using Work Order Status.
 3. Practise date-based maintenance-cycle and overdue classification.
 4. Test blank, zero, text and invalid-value cases.
