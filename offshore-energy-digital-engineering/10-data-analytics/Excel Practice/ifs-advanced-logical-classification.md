@@ -140,10 +140,22 @@ Exercise 9 requirements:
 
 The learner must independently construct the full IFS formula and test it against multiple records.
 
+## Exercise 9 — record-level validation
+
+**Record-level testing: PASSED (2026-11-22).** The learner tested the formula against five workbook records using Maintenance Cost, Downtime and Inspection Score. All five classifications matched the expected results: Medium, Medium, Low, Medium and Low. The second record was correctly classified Medium because downtime exceeded 60 hours, even though it did not qualify as High.
+
+## Exercise 11 — status-aware IFS classification
+
+**Formula construction: PASSED (2026-11-22).** The learner independently constructed a status-aware IFS formula using Work Order Status (I), Maintenance Cost (E), Downtime (F) and Inspection Score (G). The six ordered rules were: Closed → Completed; In Progress with cost > ₹100,000 OR downtime >80 OR score <50 → Escalate; Open with score <60 → Inspection Required; remaining In Progress → In Progress; remaining Open → Awaiting Action; otherwise → Review Status. The learner initially mistyped `TRUE` as `TURE` and corrected it after feedback.
+
+**Manual validation: PASSED (5/5).** The learner correctly predicted the first five records as In Progress, Awaiting Action, Completed, In Progress and Completed. The learner demonstrated understanding of rule priority and fallback behaviour.
+
 ## Remaining work
 
-1. Test the correct Exercise 9 formula against multiple workbook records and explain the returned classifications.
-2. Practise text/status-aware classification using Work Order Status.
+1. Practise date-based maintenance-cycle and overdue classification.
+2. Test blank, zero, text and invalid-value cases.
+3. Complete an independent IFS assessment before marking this supplementary practice complete.
+4. Only then proceed to SWITCH.
 3. Practise date-based maintenance-cycle and overdue classification.
 4. Test blank, zero, text and invalid-value cases.
 5. Complete an independent IFS assessment before marking this supplementary practice complete.
